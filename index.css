@@ -35,7 +35,7 @@
 /* gestion de la mise en forme des liens attention c'est une structure à mettre dans cet ordre uniquement */
 	a 	{	
 			
-	color: black ;
+	color: white ;
 	text-shadow: 1px 1px # black;
 	font-weight:bold; /* les liens en gras*/
 	text-decoration:none;
