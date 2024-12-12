@@ -10,7 +10,8 @@
 	margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
 	padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
 	text-align: center;           /* Centrage du texte */   
-	background-color: yellow;    /* Couleur d'arrière-plan */				          
+		background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
+	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     /* Couleur d'arrière-plan */				          
 	border: 1px solid #fff; 
 	box-shadow: 5px 5px 5px black;					/* Ajout d'une bordure */
 	border-radius: 4px;  /* Arrondis des bordures */
