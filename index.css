@@ -228,7 +228,8 @@
 	font-size: 1em;
 	background-size 0,5em;
 	color: blue;
-	background: yellow;
+	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
+	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 	text-shadow: 0.3px 0.3px 0.3px ;  /*pour ajouter une ombre qui rend le texte "gras" */
 	box-shadow: 2px 1px 1px silver; 
 	position: relative;
@@ -238,10 +239,7 @@
 }
 		
 		
-		.logo_site {
-			  width: 2em;
-    height: 2em;
-	padding:0.5em 1em 1em;
+	
 	
 			
 			
