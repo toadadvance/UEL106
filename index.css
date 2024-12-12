@@ -69,7 +69,7 @@
 													
 													
 	body { 
-	background : silver;
+	background : blue;
 	padding: 0; /*sans l'initialisation du padding et du margin du body, mes photos restaient collées !!! */
 	margin: 0;
 }
