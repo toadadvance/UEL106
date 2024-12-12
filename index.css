@@ -41,13 +41,13 @@
 }
 
 	a:link {
-	color: white;
+	color: green;
 	text-decoration:none;
 }
 
 /* lien à visiter */
 	a:visited {
-	color: white;
+	color: green;
 	text-decoration:none;
 }
 
