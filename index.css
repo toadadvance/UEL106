@@ -99,8 +99,7 @@
 
 	.share-tech-mono-regular, h1, h2, h3{
 	font-family: "Share Tech Mono", monospace;
-	background-image: linear-gradient(225deg, #ffc100 0, #ffca00 7.14%, #f7d100 14.29%, #e3d800 21.43%, #cddf00 28.57%,
-	#b6e400 35.71%, #9de900 42.86%, #81ed0c 50%, #5df134 57.14%, #1af44e 64.29%, #00f666 71.43%, #00f87d 78.57%, #00fa94 85.71%, #00fcab 92.86%, #00fdc3 100%);
+	background color: blue ;
 	font-style: normal;
 	line-height:1em ;
 	text-align: center;
@@ -114,7 +113,7 @@
     flex-wrap: wrap;
     justify-content: center; /* flex-end  flex-start center*/
     align-items: space-between; /* space-around , space-between center, flex-start */
-	background-image: radial-gradient(circle at 50% -20.71%, #ffeded 0, #f8dfe1 16.67%, #ddd0d2 33.33%, #bfbfbf 50%, #a2aeaa 66.67%, #8b9f96 83.33%, #799284 100%);
+	background color: red ;
 }
 
 	.zone_container_display_flex_fond_neutre {	
@@ -156,7 +155,7 @@
 
 
 	.bande_menu {				
-	background-image: radial-gradient(circle at 50% -20.71%, #bafc6e 0, #a3f775 10%, #8bf17b 20%, #71e881 30%, #54de86 40%, #30d289 50%, #00c68b 60%, #00bb8e 70%, #00b190 80%, #00a993 90%, #00a297 100%);
+	background-image: silver;
 }
 
 	.titre_h1 {
