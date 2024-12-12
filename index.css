@@ -71,7 +71,7 @@
 													
 													
 	body { 
-	background : white;
+	background : silver;
 	padding: 0; /*sans l'initialisation du padding et du margin du body, mes photos restaient collées !!! */
 	margin: 0;
 }
@@ -79,10 +79,7 @@
 
 	h1,h2,h3 {
 	display: inline-block;
-	background-image: linear-gradient(225deg, #ffba42 0, #ffc330 7.14%, #ffcb1d 14.29%, #ffd301 21.43%, #ffdb00 28.57%, #fde100 35.71%,
-	#eae700 42.86%, #d6ed0c 50%, #c1f225 57.14%, #a9f639 64.29%, #90fa4c 71.43%, #71fd5f 78.57%, #46ff73 85.71%, #00ff87 92.86%, #00ff9b 100%); /*dégradé de couleurs*/
-	text-shadow: 1px 1px 2px white;
-	box-shadow: 5px 5px 5px black;
+	background color: blue ;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
