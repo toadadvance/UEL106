@@ -1,7 +1,7 @@
 /* boutons du menu du haut pour la navigation */
 	.navbar li {
 	list-style-type: none ; 
-	text-shadow: 1px 1px 0.5px ;/* Suppression des puces */				
+	text-shadow: 1px 1px 0.5px ;/* Suppression des puces */	 			
 }
 
 	.navbar a  {
