@@ -188,6 +188,8 @@
 	margin-top: 0;
 	margin-bottom: 0; 
 	color : white;
+	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
+	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 } 									
 										
 	.ombre_texte_nav {
@@ -321,7 +323,10 @@
 	font-size: 1.4em ;
 	padding: 1em 15em 1em;
 	margin-top: 0;
-	margin-bottom: 0; 
+	margin-bottom: 0;
+color : white;	
+	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
+	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 											
 											
@@ -367,6 +372,7 @@
 	margin-top: 0;
 	margin-bottom: 0; 
 	margin-left: 18em; 
+	color : white;
 	
 }	
 						
@@ -392,13 +398,15 @@
 	font-family: Share-Techmono ; 
 	font-size: 1.2em;
 	background-size 0.5em ;
-	color: blue;
-	background: yellow;
+	color: white;
+	
 	text-shadow: 1px 1px 0.5px ;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
 	font-weight: bold; /* police en gras*/
+	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
+	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }	
 	 
 	#parag_aside { 
