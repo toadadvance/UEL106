@@ -420,12 +420,11 @@ color : white;
 	margin-bottom: 0; 
 	text-shadow: 0.02em 0.02em #333; 
 } 	
+
+#API_son {
    
-	#centre_lien_retour_article {
-	display: inline-block;
-	color:#BD0206;
-	font-size: 2em ;
-	background-color: black;
+	
+	background-color: yellow;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
