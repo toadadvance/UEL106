@@ -118,10 +118,24 @@
 	background color: red ;
 }
 
+	.zone_container_display_flex_fond_neutre {	
+    display: flex;
+    flex-direction: row; /* row , colonne, column-reverse, row-reverse, */ 
+    flex-wrap: wrap;
+    justify-content: center; /* flex-end  flex-start center*/
+     /* space-around , space-between center, flex-start */
+	
+}
 
 
-
-
+	#ordre_photo1_art1_page_haut {
+	display :flex;
+	 order: 1;
+    /*flex: 0 0 auto;
+    align-self: auto; */ 	
+	margin:auto;
+	
+}
 
 
 	#taille_photo1_julien {
@@ -129,8 +143,22 @@
 	
 }
 
+	#ordre_photo2_art1_page_haut {
+	display :flex;
+	 order: 0;
+   /* flex: 0 0 auto;
+    align-self: auto;*/
+	margin:auto;
+	
+}
 
-
+	#ordre_photo3_art1_page_haut {
+	display :flex;
+	order: 0;
+   /* flex: 0 0 auto;
+    align-self: auto;*/	
+	margin:auto;
+}
 
 
 
@@ -166,9 +194,28 @@
 	.ombre_texte_nav {
 	text-shadow: 1px 1px 2px grey;
 }
-
-
-  /
+										
+										
+										
+	.centrage_photo_perso { /* pour la video youtube à centrer sur article 3 evenement nouveautés// 56.25% pour le 16/9 pour s'adapter aux écrans, le 16/9 c'est la taille standard des vidéos */
+	margin-left:62em;
+}
+										
+  /*
+  width: 100%;
+  padding-bottom: 56.25%; /* me pose un probleme, met de l'espace en bas de la video
+  height: 0; */
+}
+/* .video_adapte iframe {
+  position: absolute;
+  top:0;
+  buttom:0;
+  left: 25em; /*pour centrer la video
+  width: 50%;
+  height: 50%;
+  
+}  */
+							
   /* "id" */
   	#couleur_nav_mot1 {
 	background-image: radial-gradient(circle at 50% -20.71%, #bafc6e 0, #a3f775 10%, #8bf17b 20%, #71e881 30%, #54de86 40%, #30d289 50%, #00c68b 60%, #00bb8e 70%, #00b190 80%, #00a993 90%, #00a297 100%);
@@ -199,13 +246,75 @@
 			
 		}
 															
+	#image1_index_art1_Inclu_Num {	   /* pour le bon ratio  en px vers em utiliser convertisseur 
+								box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)							en ligne https://nekocalc.com/fr/px-a-em-convertisseur suivant la résolution exacte de l'image d'origine,												ensuite faire la meme division pour la largeur et la heuteur */
+    width: 30em;
+    height: 20em;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	
+}
+
+	#image2_index_art1_Inclu_Num {	
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);	
+    width: 29.9845em;
+    height: 20.0155em;
+}
+
+
+	#image3_index_art1_Inclu_Num{	
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)	;
+    width: 24em;
+    height: 32.28125em;
+}
+	#image4_art1_index_Inclu_Num_milieu {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /*ombre photo*/
+    width: 30em;
+    height:20em;
+	float: left;
+  margin-right:1em;
+
+  /*photo collé ou non au texte*/ 
+
+}
+
+	#image_art2_Profil_Atyp_haut {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /*ombre photo*/
+    width: 40.8em;
+    height: 30.6em;
+	float: center;
+ /*  margin-right:1em; 
+  border-radius:60%;
+  border:0.2em solid white;  si je souhaite faire une photo arrondie avec des bords blancs*/ 
+  /*photo collé ou non au texte*/ 
+}
+
+
+	#image2_art2_Profil_Atyp_milieu {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /*ombre photo*/
+    width: 30em;
+    height: 19.875em;
+	float: left;
+	margin-right:1em; /*photo collé ou non au texte*/ 
+}
 
 
 
+	#image_art3_Even_Nouv_haut {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /*ombre photo*/
+    width: 46em;
+    height:32.02 em;
+	float: let;
+	margin-right:1em; /*photo collé ou non au texte*/ 
+}
 
 
-
-
+	#image_art3_Even_Nouv_milieu {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /*ombre photo*/
+    width: 47em;
+    height:32.124 em;
+	float: center;
+	margin-right:1em; /*photo collé ou non au texte*/ 
+}
 
 	#parag_intro {
 	line-height : 1.2em;
@@ -232,7 +341,15 @@ color : white;
 }
 														
 
-
+	#parag_concl {
+	line-height : 1.2em;
+	font-family: font-family: Targa MS; 
+	font-size: 1.4em ;
+	padding: 1em 15em 1em;
+	margin-top: 0;
+	margin-bottom: 0; 
+	text-shadow: 0.02em 0.02em #333;
+}	
 															
 															
 	.liste_style_puce{
@@ -292,7 +409,16 @@ color : white;
 	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }	
 	 
- 	
+	#parag_aside { 
+	line-height : 1.2em;
+	font-family: font-family: Targa MS;  
+	font-size: 1.4em ;
+	color:green;
+	padding: 1em 15em 1em;
+	margin-top: 0;
+	margin-bottom: 0; 
+	text-shadow: 0.02em 0.02em #333; 
+} 	
 
 .API_son {
    
