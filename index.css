@@ -10,8 +10,8 @@
 	margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
 	padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
 	text-align: center;           /* Centrage du texte */   
-		background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     /* Couleur d'arrière-plan */				          
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   			          
 	border: 1px solid #fff; 
 	box-shadow: 5px 5px 5px black;					/* Ajout d'une bordure */
 	border-radius: 4px;  /* Arrondis des bordures */
@@ -70,8 +70,8 @@
 													
 													
 	body { 
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             ;
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                              ;
 	padding: 0; /*sans l'initialisation du padding et du margin du body, mes photos restaient collées !!! */
 	margin: 0;
 }
@@ -79,8 +79,8 @@
 
 	h1,h2,h3 {
 	display: inline-block;
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+	 background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
@@ -189,8 +189,8 @@
 	margin-top: 0;
 	margin-bottom: 0; 
 	color : white;
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                            
 } 									
 										
 	.ombre_texte_nav {
@@ -231,8 +231,8 @@
 	font-size: 1em;
 	background-size 0,5em;
 	color: blue;
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 	text-shadow: 0.3px 0.3px 0.3px ;  /*pour ajouter une ombre qui rend le texte "gras" */
 	box-shadow: 2px 1px 1px silver; 
 	position: relative;
@@ -326,8 +326,8 @@
 	margin-top: 0;
 	margin-bottom: 0;
 color : white;	
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
 											
 											
@@ -406,8 +406,8 @@ color : white;
 	left: 50%;
 	transform: translateX(-50%);
 	font-weight: bold; /* police en gras*/
-	background: -webkit-linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* Chrome 10-25, Safari 5.1-6 */                    
-	background: linear-gradient(90deg, #72463d,#b44d6d,#d863cc);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+ background: -webkit-linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* Chrome 10-25, Safari 5.1-6 */    
+	background: linear-gradient(90deg, #59d570,#00a2fa,#3907ef,#ca0588,#6b174d);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }	
 	 
 	#parag_aside { 
