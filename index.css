@@ -459,3 +459,14 @@ color : white;
 }
 							
 /* pour info et pour plus tard transform permet de bouger des élements en x et y mais aussi en rotation*/
+
+
+	#centre_lien_retour_article {
+	display: inline-block;
+	color:#BD0206;
+	font-size: 2em ;
+	background-color: black;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
