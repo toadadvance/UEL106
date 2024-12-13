@@ -428,7 +428,7 @@ color : white;
 	position: relative;
 	/*left: 50%;
 	transform: translateX(-50%);*/
-	merge-left : 5em;
+	margin-left: 5em;
 }
   
 	.tableau_ressources {
