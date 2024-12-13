@@ -48,7 +48,7 @@
 
 /* lien à visiter */
 	a:visited {
-	color: black;
+	color: white;
 	text-decoration:none;
 }
 
@@ -471,3 +471,4 @@ color : white;
 	left: 50%;
 	transform: translateX(-50%);
 }
+
