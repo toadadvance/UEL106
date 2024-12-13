@@ -421,13 +421,14 @@ color : white;
 	text-shadow: 0.02em 0.02em #333; 
 } 	
 
-#API_son {
+.API_son {
    
 	
-	background-color: yellow;
+	color: yellow;
 	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
+	/*left: 50%;
+	transform: translateX(-50%);*/
+	merge-left : 5em;
 }
   
 	.tableau_ressources {
